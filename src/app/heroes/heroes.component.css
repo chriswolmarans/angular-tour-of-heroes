@@ -21,5 +21,5 @@ h2 {
   @apply text-white bg-gray-500;
 }
 .heroes .badge {
-  @apply inline-block bg-gray-700 text-white px-2 rounded-l uppercase font-semibold tracking-wide;
+  @apply inline-block bg-gray-700 text-white px-2 py-2 rounded-l uppercase font-semibold tracking-wide;
 }
