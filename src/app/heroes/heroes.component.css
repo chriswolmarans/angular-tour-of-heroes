@@ -1,4 +1,7 @@
 /* HeroesComponent's private CSS styles */
+h2 {
+  @apply text-3xl;
+}
 .heroes {
   @apply mb-8 list-none p-0 w-64;
 }

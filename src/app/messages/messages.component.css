@@ -1,0 +1,14 @@
+/* MessagesComponent's private CSS styles */
+h2 {
+  @apply text-3xl mt-8 text-red-600;
+}
+button, button.clear {
+  @apply font-sans bg-gray-200 cursor-pointer rounded py-2 px-4 mb-4;
+}
+button:hover {
+  @apply bg-gray-400;
+}
+button:disabled {
+  @apply cursor-not-allowed bg-gray-100;
+}
+

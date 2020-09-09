@@ -1,14 +1,9 @@
 /* Application-wide Styles */
+
 h1 {
   @apply text-blue-700 font-sans text-5xl;
 }
-h2, h3 {
-  @apply text-gray-700 font-light;
-}
-body, input[type="text"], button {
-  @apply font-serif text-gray-800;
-}
-/* everywhere else */
-* {
-  @apply font-sans text-gray-800;
+
+:host {
+  @apply m-8 block
 }

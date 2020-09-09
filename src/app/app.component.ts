@@ -1,4 +1,4 @@
-import {Component, HostBinding} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,9 +7,5 @@ import {Component, HostBinding} from '@angular/core';
 })
 export class AppComponent {
   title = 'Tour of Heroes';
-  @HostBinding('class')
-  get classes(): string {
-    return 'absolute container m-8'; // why absolute??
-  }
 }
 
