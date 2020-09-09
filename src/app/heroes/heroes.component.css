@@ -12,7 +12,7 @@
   @apply text-white bg-gray-600;
 }
 .heroes li.selected:hover {
-  @apply text-white bg-gray-300;
+  @apply text-white bg-gray-500;
 }
 .heroes .badge {
   @apply inline-block bg-gray-700 text-white px-2 rounded-l uppercase font-semibold tracking-wide;
