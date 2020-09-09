@@ -1,3 +1,12 @@
 h2 {
   @apply text-3xl;
 }
+button {
+  @apply font-sans bg-gray-200 cursor-pointer rounded py-2 px-4 my-4;
+}
+button:hover {
+  @apply bg-gray-400;
+}
+button:disabled {
+  @apply cursor-not-allowed bg-gray-100;
+}

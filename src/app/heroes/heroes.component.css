@@ -8,6 +8,9 @@ h2 {
 .heroes li {
   @apply cursor-pointer relative left-0 bg-gray-300 m-5 rounded;
 }
+.heroes li a {
+  @apply block;
+}
 .heroes li:hover {
   @apply text-blue-600 bg-gray-200;
 }
