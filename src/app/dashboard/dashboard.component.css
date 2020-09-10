@@ -1,6 +1,6 @@
 /* DashboardComponent's private CSS styles */
 .grid-pad {
-  @apply flex justify-center;
+  @apply flex justify-center flex-col;
 }
 
 .module {
@@ -14,4 +14,10 @@
   cursor: pointer;
   color: #607d8b;
   @apply bg-gray-100 cursor-pointer text-gray-700
+}
+
+@media (min-width: 1024px) {
+  .grid-pad {
+    @apply flex justify-center flex-row;
+  }
 }
